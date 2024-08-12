@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin:0%;
+    width: auto;
+}
+body{
+    background-image: url(img/business-6851888_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: end
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-menu .nav-link:hover {
+    color: #ff6347;
+}
+body section .navbar-toggler .navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:transparent;
+}
+section h2{
+   color: rgb(0, 0, 0);
+    font-size: 40px;
+   padding-bottom: 30px;
+   margin-top: 10px;
+
+}
+
+section .main-container{
+    border-radius: 15px;
+    background-color: black;
+    width: auto;
+    box-shadow: #0c0c0c;
+    margin-bottom: 50px;
+}
+
+section .container-2 img{
+    margin-top: 7%;
+    margin-left: 11%;
+    width: 600px;
+    height: 900px;
+    padding-top: 0%;
+    display: grid;
+    text-align:left;
+float: left;
+align-items:center ;
+background-color: #c76a6abe;
+color:rgb(8, 8, 8);
+font-size: 20px;
+margin-bottom: 5%;
+opacity: 0.8;
+
+
+
+}
+section .container-1 {
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 502px;
+    height: 800px;
+    padding: 10px;
+    display: grid;
+    text-align:left;
+    font-weight: 800;
+   filter: blur(0.1);
+    
+float: right;
+align-items:center ;
+background-color: #ffffff;
+background: transparent;
+
+color:rgb(0, 0, 0);
+font-size: 20px;
+
+line-height: 1.2cm;
+
+
+}
+section .container-1 form{
+   margin-bottom: 10px;
+}
+
+
+
+input[type="text"],
+input[type="date"],
+input[type="file"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="resume"],
+input[type="CAPTCHA"],
+
+
+select {
+    width: 50%;
+    padding: 5px;
+    margin-top: 6px;
+    margin-right: 10px;
+    border-radius:5px;
+    border: 2px solid #ffffff;
+    float:right;
+    background-color:transparent;
+    color: rgb(3, 3, 3);
+   
+   
+}
+section .container form .form-group{
+    padding-top: 5px;
+}
+.Male{
+    width:52%;
+    float:right;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    
+} 
+
+    
+
+div ::placeholder{
+    color: black;
+}
+button{
+    background-color: #ee6154; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: small;
+}
+button:hover{
+    background-color: rgb(254, 45, 8);
+    color: white;
+    font-size: medium;
+
+}
+
